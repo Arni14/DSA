@@ -15,6 +15,7 @@ public class Recursion {
         node.right.left = new BinaryTree.TreeNode(9, null, null);
         node.right.right = new BinaryTree.TreeNode(12, null, null);
         System.out.println("Num Leaves: " + numLeaves(node));
+        System.out.println(sum(5));
     }
 
     public static int sum(int n) {
